@@ -1,8 +1,5 @@
 
-<svg width="360px" height="480px" viewBox="0 0 360 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop" transform="translate(-320.000000, -260.000000)" fill="#000000" stroke="#000000">
-            <path d="M608.5,739.5 L679.5,739.5 L679.5,470.5 L391.5,470.5 L391.5,260.5 L320.5,260.5 L320.5,533.5 L608.5,533.5 L608.5,739.5 Z" id="Combined-Shape"></path>
-        </g>
-    </g>
+<svg id="sit" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 1024">
+  <title>Sit icon</title>
+<path d="M615.467 1022.933h151.467v-573.867h-614.4v-448h-151.467v582.4h614.4v439.467z"></path>
 </svg>
