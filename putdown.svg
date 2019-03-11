@@ -1,5 +1,43 @@
 
 <svg id="putdown" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 598 1024">
   <title>Putdown icon </title>
+  <defs>
+      <linearGradient id="gradient1" x1="0%" y1="100%" x2="0%" y2="0%">
+        <stop offset="0%" stop-color="white" stop-opacity="1"/>
+        <stop offset="100%" stop-color="black" stop-opacity="1"/>
+      </linearGradient>
+      <linearGradient id="gradient2" x1="0%" y1="100%" x2="0%" y2="0%">
+          <stop offset="0%" stop-color="black" stop-opacity="1"/>
+          <stop offset="100%" stop-color="white" stop-opacity="1"/>
+      </linearGradient>
+      <style>
+        path {
+          animation: ripple 2s linear infinite forwards;
+          stroke: black 2px;
+          fill: black;
+        }
+
+        @keyframes ripple {
+          0% {
+            fill: url(#gradient1);
+            opacity: 1;
+          }
+
+          50% {
+            fill: black;
+          }
+
+          80% {
+            fill: url(#gradient2);
+            opacity: 1;
+          }
+
+          100% {
+            fill: white;
+            opacity: 0;
+          }
+        }
+      </style>
+  </defs>
   <path d="M356.594 706.225l88.832 90.722-219.798 224.474-1.577-1.611-1.577 1.611-219.798-224.474 88.832-90.722 66.153 67.56v-771.649h125.605v23.948l1.254-0.228c9.084-1.648 18.351-2.483 27.724-2.483h130.567c85.242 0 154.345 69.103 154.345 154.345v80.95c0 85.242-69.103 154.345-154.345 154.345h-130.649c-9.346 0-18.585-0.83-27.643-2.468l-1.254-0.227v370.796l73.329-74.889zM224.051 1022.853l0.761-0.777h-1.521l0.761 0.777zM363.609 110.142c-59.137 0-107.077 47.94-107.077 107.077s47.94 107.077 107.077 107.077h40.869c58.535 0 106.312-46.828 107.488-105.351l0.034-1.704c0.014-0.703 0.021-1.405 0.021-2.108 0-57.984-47.006-104.99-104.99-104.99h-43.422z"></path> 
 </svg>

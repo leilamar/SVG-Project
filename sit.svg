@@ -1,5 +1,42 @@
 
 <svg id="sit" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 1024">
   <title>Sit icon</title>
+  <defs>
+      <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="black" stop-opacity="1"/>
+        <stop offset="100%" stop-color="white" stop-opacity="1"/>
+      </linearGradient>
+      <linearGradient id="gradient2" x1="0%%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="white" stop-opacity="1"/>
+          <stop offset="100%" stop-color="black" stop-opacity="1"/>
+      </linearGradient>
+      <style>
+        path {
+          animation: ripple 2s linear infinite forwards;
+          fill: black;
+        }
+
+        @keyframes ripple {
+          0% {
+            fill: white;
+            opacity: 1;
+          }
+
+          50% {
+            fill: black;
+          }
+
+          80% {
+            fill: black;
+            opacity: 1;
+          }
+
+          100% {
+            fill: white;
+            opacity: 0;
+          }
+        }
+      </style>
+  </defs>
 <path d="M615.467 1022.933h151.467v-573.867h-614.4v-448h-151.467v582.4h614.4v439.467z"></path>
 </svg>
